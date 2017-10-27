@@ -8,11 +8,13 @@
 	"buffers":
 	[
 		{
-			"file": "manage.py",
+			"file": "blog/templates/blog/post_detail.html",
 			"settings":
 			{
-				"buffer_size": 804,
-				"line_ending": "Windows"
+				"buffer_size": 327,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "{% extends 'blog/base.html' %}"
 			}
 		}
 	],
@@ -48,14 +50,31 @@
 	},
 	"expanded_folders":
 	[
-		"/D/workspace/python/site"
+		"/D/workspace/python/site",
+		"/D/workspace/python/site/blog",
+		"/D/workspace/python/site/blog/templates",
+		"/D/workspace/python/site/blog/templates/blog",
+		"/D/workspace/python/site/mysite",
+		"/D/workspace/python/site/mysite/__pycache__"
 	],
 	"file_history":
 	[
+		"/D/workspace/python/site/blog/templates/blog/post_list.html",
+		"/D/workspace/python/site/blog/static/css/blog.css",
+		"/D/workspace/python/site/blog/templates/blog/base.html",
+		"/D/workspace/python/site/blog/urls.py",
+		"/D/workspace/python/site/blog/views.py",
+		"/D/workspace/python/site/mysite/urls.py",
+		"/D/workspace/python/site/blog/admin.py",
+		"/D/workspace/python/site/blog/models.py",
+		"/D/workspace/python/site/mysite/settings.py",
+		"/D/workspace/python/site/manage.py",
+		"/D/workspace/python/site/blog/apps.py",
+		"/D/workspace/python/site/.gitignore"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -69,6 +88,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lobsterAr"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -91,26 +111,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "manage.py",
+					"file": "blog/templates/blog/post_detail.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 804,
+						"buffer_size": 327,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								327,
+								327
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "{% extends 'blog/base.html' %}",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -124,11 +143,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -161,7 +180,7 @@
 	"project": "site.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
